@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BV Being We — Hope in Action</title>
+    <meta name="description" content="BV Being We is a registered NGO creating lasting change through education, healthcare, disaster relief and community empowerment across India.">
+    <meta name="theme-color" content="#6C63FF">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============  PRELOADER  ============ -->
+<div id="preloader" class="preloader" aria-hidden="true">
+    <div class="loader-ring"></div>
+</div>
+
+<!-- ============  NAVBAR  ============ -->
+<header class="header" id="header">
+    <div class="container header__inner">
+        <a href="#" class="logo" aria-label="BV Being We home">
+            <span class="logo__icon">BW</span>
+            <span class="logo__text">BV Being We</span>
+        </a>
+
+        <nav class="nav" id="nav" aria-label="Primary navigation">
+            <ul class="nav__list">
+                <li><a href="#home" class="nav__link active">Home</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#impact" class="nav__link">Our Impact</a></li>
+                <li><a href="#vision" class="nav__link">Vision 2030</a></li>
+                <li><a href="#programs" class="nav__link">Programs</a></li>
+                <li><a href="#team" class="nav__link">Team</a></li>
+                <li><a href="#contact" class="nav__link nav__cta">Get&nbsp;Involved</a></li>
+            </ul>
+        </nav>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<!-- ============  HERO  ============ -->
+<section id="home" class="hero">
+    <canvas id="heroCanvas" class="hero__canvas"></canvas>
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__content">
+        <p class="hero__badge">Registered NGO &bull; India</p>
+        <h1 class="hero__title">Empowering Lives,<br><em>Inspiring Hope.</em></h1>
+        <p class="hero__sub">BV Being We is a beacon of hope — a catalyst for positive change and a community of compassion-driven individuals dedicated to making a tangible difference.</p>
+        <p class="hero__tagline">&ldquo;Alone we can do so little, together we can do so much.&rdquo;</p>
+        <div class="hero__actions">
+            <a href="#impact" class="btn btn--accent">See Our Impact</a>
+            <a href="#contact" class="btn btn--outline">Join the Mission</a>
+        </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><i class="fas fa-angle-down"></i></a>
+</section>
+
+<!-- ============  ABOUT  ============ -->
+<section id="about" class="section about">
+    <div class="container">
+        <header class="section__head">
+            <span class="section__tag">Who We Are</span>
+            <h2 class="section__title">About <span class="text-gradient">BV Being We</span></h2>
+        </header>
+
+        <div class="about__grid">
+            <div class="about__text reveal">
+                <p class="lead">We're more than just an NGO — we're a community of compassion-driven individuals with a core team of <strong>10+ passionate members</strong> and the unwavering support of <strong>100+ volunteers</strong> across Vizag, Hyderabad &amp; Bangalore.</p>
+                <p>We believe in the transformative power of community action. From educating girls to organising blood camps and distributing blankets in winter — we show up where it matters.</p>
+                <div class="about__stats">
+                    <div class="stat" data-target="100" data-suffix="+">
+                        <span class="stat__num">0</span>
+                        <span class="stat__label">Volunteers</span>
+                    </div>
+                    <div class="stat" data-target="3">
+                        <span class="stat__num">0</span>
+                        <span class="stat__label">Cities</span>
+                    </div>
+                    <div class="stat" data-target="500" data-suffix="+">
+                        <span class="stat__num">0</span>
+                        <span class="stat__label">Blankets Given</span>
+                    </div>
+                    <div class="stat" data-target="70" data-suffix="%">
+                        <span class="stat__num">0</span>
+                        <span class="stat__label">Blood Requests Filled</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about__img reveal reveal--right">
+                <img src="images/about-placeholder.jpg" alt="BV Being We volunteers in action" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============  IMPACT / WHAT WE DO  ============ -->
+<section id="impact" class="section impact">
+    <div class="container">
+        <header class="section__head">
+            <span class="section__tag">What We Do</span>
+            <h2 class="section__title">Our <span class="text-gradient">Impact Areas</span></h2>
+            <p class="section__sub">We provide hope through action — one initiative at a time.</p>
+        </header>
+
+        <div class="impact__grid">
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3 class="card__title">Education Support</h3>
+                <p>Supporting the education of underprivileged girls — covering school fees &amp; providing stationery to unlock futures.</p>
+            </article>
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-tint"></i></div>
+                <h3 class="card__title">Blood Donation Camps</h3>
+                <p>Partnering with Indian Red Cross, Mother's Blood Bank &amp; Amma Blood Bank — fulfilling 7 out of 10 requests we receive.</p>
+            </article>
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-hand-holding-heart"></i></div>
+                <h3 class="card__title">Orphanage &amp; Elder Care</h3>
+                <p>Donating groceries, food &amp; medicines to orphanages and old-age homes — bringing comfort where it's needed most.</p>
+            </article>
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-bullhorn"></i></div>
+                <h3 class="card__title">Awareness Campaigns</h3>
+                <p>Running rural campaigns on menstrual health, breast cancer awareness &amp; sex education — knowledge is empowerment.</p>
+            </article>
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-seedling"></i></div>
+                <h3 class="card__title">Environmental Action</h3>
+                <p>Beach clean-ups and green drives to protect natural resources and promote sustainable living in our communities.</p>
+            </article>
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-rainbow"></i></div>
+                <h3 class="card__title">LGBTQ+ Advocacy</h3>
+                <p>Collaborating with the LGBTQ+ community to champion equality, acceptance &amp; inclusion for every individual.</p>
+            </article>
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-people-carry-box"></i></div>
+                <h3 class="card__title">Disaster Relief</h3>
+                <p>Standing in solidarity during calamities — distributing 500+ blankets across rural &amp; urban areas in peak winters.</p>
+            </article>
+            <article class="card reveal">
+                <div class="card__icon"><i class="fas fa-hand-holding-dollar"></i></div>
+                <h3 class="card__title">Financial Assistance</h3>
+                <p>Helping families who lost loved ones in accidents — providing a lifeline during their darkest hours.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ============  VISION 2030  ============ -->
+<section id="vision" class="section vision">
+    <div class="container">
+        <header class="section__head">
+            <span class="section__tag">Looking Ahead</span>
+            <h2 class="section__title">Vision <span class="text-gradient">2030</span></h2>
+        </header>
+
+        <div class="vision__grid">
+            <div class="vision__text reveal">
+                <div class="vision__badge"><i class="fas fa-heart"></i> Our Motto: <strong>HOPE</strong></div>
+                <p class="lead">By 2030 we envision the <strong>BeingWe Home</strong> — a sanctuary where orphaned children, elderly individuals and beloved animal companions can find refuge, care &amp; love.</p>
+                <p>Through compassion, empathy and inclusivity, we aspire to create a community where every individual is valued, every voice is heard and every life is cherished.</p>
+                <p class="italic">&ldquo;Join us on this journey of hope — one act of kindness, one gesture of compassion and one step closer to a brighter tomorrow.&rdquo;</p>
+            </div>
+            <div class="vision__img reveal reveal--right">
+                <img src="images/vision-placeholder.jpg" alt="BeingWe Home Vision 2030" loading="lazy">
+                <span class="vision__year">2030</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============  PROGRAMS  ============ -->
+<section id="programs" class="section programs">
+    <div class="container">
+        <header class="section__head">
+            <span class="section__tag">Coming Soon</span>
+            <h2 class="section__title">Upcoming <span class="text-gradient">Programs</span></h2>
+            <p class="section__sub">New initiatives on the horizon to deepen our impact.</p>
+        </header>
+
+        <div class="programs__grid">
+            <article class="prog reveal">
+                <span class="prog__icon"><i class="fas fa-school"></i></span>
+                <div>
+                    <h3>Tribal Education Initiative</h3>
+                    <p>Establishing learning camps and distributing materials in remote tribal areas to spark awareness about education.</p>
+                </div>
+            </article>
+            <article class="prog reveal">
+                <span class="prog__icon"><i class="fas fa-user-graduate"></i></span>
+                <div>
+                    <h3>Scholarship Program</h3>
+                    <p>Scholarships for deserving students from underprivileged backgrounds to fuel their academic journeys.</p>
+                </div>
+            </article>
+            <article class="prog reveal">
+                <span class="prog__icon"><i class="fas fa-ribbon"></i></span>
+                <div>
+                    <h3>Cancer Support</h3>
+                    <p>Emotional, financial &amp; medical assistance for cancer patients — from counselling to treatment subsidies.</p>
+                </div>
+            </article>
+            <article class="prog reveal">
+                <span class="prog__icon"><i class="fas fa-stethoscope"></i></span>
+                <div>
+                    <h3>Medical Wing</h3>
+                    <p>A dedicated facility for consultations, diagnostics &amp; preventive care in underserved communities.</p>
+                </div>
+            </article>
+            <article class="prog reveal">
+                <span class="prog__icon"><i class="fas fa-tree"></i></span>
+                <div>
+                    <h3>Environmental Conservation</h3>
+                    <p>Workshops, tree-planting drives &amp; clean-ups to foster a culture of environmental stewardship.</p>
+                </div>
+            </article>
+            <article class="prog reveal">
+                <span class="prog__icon"><i class="fas fa-paw"></i></span>
+                <div>
+                    <h3>PAWsitive Impact</h3>
+                    <p>Promoting adoption, responsible pet ownership &amp; veterinary care for strays.</p>
+                </div>
+            </article>
+            <article class="prog reveal">
+                <span class="prog__icon"><i class="fas fa-utensils"></i></span>
+                <div>
+                    <h3>Annadanam Seva</h3>
+                    <p>Community kitchens &amp; food distribution to address food insecurity and nourish those in need.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ============  TEAM  ============ -->
+<section id="team" class="section team">
+    <div class="container">
+        <header class="section__head">
+            <span class="section__tag">The People</span>
+            <h2 class="section__title">Meet Our <span class="text-gradient">Team</span></h2>
+            <p class="section__sub">Passionate individuals driving change every single day.</p>
+        </header>
+
+        <div class="team__grid">
+            <figure class="member reveal"><img src="images/team/Hari.jpg" alt="Hari" loading="lazy"><figcaption>Hari</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Prasanna.jpg" alt="Prasanna" loading="lazy"><figcaption>Prasanna</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Dhana.jpg" alt="Dhana" loading="lazy"><figcaption>Dhana</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Yamini.jpg" alt="Yamini" loading="lazy"><figcaption>Yamini</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Swetha.jpg" alt="Swetha" loading="lazy"><figcaption>Swetha</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Tanuja.jpg" alt="Tanuja" loading="lazy"><figcaption>Tanuja</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Sri lakshmi.jpg" alt="Sri Lakshmi" loading="lazy"><figcaption>Sri Lakshmi</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Rajesh.jpg" alt="Rajesh" loading="lazy"><figcaption>Rajesh</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Adithya.jpg" alt="Adithya" loading="lazy"><figcaption>Adithya</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Sai Santosh.jpg" alt="Sai Santosh" loading="lazy"><figcaption>Sai Santosh</figcaption></figure>
+            <figure class="member reveal"><img src="images/team/Prasanth.jpg" alt="Prasanth" loading="lazy"><figcaption>Prasanth</figcaption></figure>
+        </div>
+
+        <div class="volunteers reveal">
+            <h3>100+ Volunteers&nbsp; <i class="fas fa-heart"></i></h3>
+            <p>Praneeth, Neel, Alekhya, Bhavani, Kavya, Shiva, Laxmi, Niharika, Sharanya, Satish, Jaswanth, Bhavya, Srikanth, Lokesh &amp; many more amazing people across Vizag, Hyderabad &amp; Bangalore.</p>
+            <a href="#contact" class="btn btn--accent btn--sm">Become a Volunteer</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============  CONTACT  ============ -->
+<section id="contact" class="section contact">
+    <div class="container">
+        <header class="section__head">
+            <span class="section__tag">Let's Connect</span>
+            <h2 class="section__title">Get <span class="text-gradient">Involved</span></h2>
+            <p class="section__sub">Volunteer, donate or partner — every bit of support counts.</p>
+        </header>
+
+        <div class="contact__grid">
+            <div class="contact__info reveal">
+                <div class="contact__card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div><strong>Locations</strong><br>Vizag &bull; Hyderabad &bull; Bangalore</div>
+                </div>
+                <a href="mailto:bvbeingwee@gmail.com" class="contact__card">
+                    <i class="fas fa-envelope"></i>
+                    <div><strong>Email</strong><br>bvbeingwee@gmail.com</div>
+                </a>
+                <a href="tel:+918520938359" class="contact__card">
+                    <i class="fas fa-phone"></i>
+                    <div><strong>Phone</strong><br>+91 85209 38359</div>
+                </a>
+                <a href="https://wa.me/918520938359" target="_blank" rel="noopener" class="contact__card">
+                    <i class="fab fa-whatsapp"></i>
+                    <div><strong>WhatsApp</strong><br>+91 85209 38359</div>
+                </a>
+
+                <div class="contact__socials">
+                    <a href="https://www.instagram.com/bv_beingwe/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/918520938359" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:bvbeingwee@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <form class="contact__form reveal reveal--right" id="contactForm" autocomplete="on">
+                <h3>Send us a message</h3>
+                <div class="form__row">
+                    <div class="form__field">
+                        <input type="text" name="name" placeholder=" " required>
+                        <label>Full Name</label>
+                    </div>
+                    <div class="form__field">
+                        <input type="email" name="email" placeholder=" " required>
+                        <label>Email Address</label>
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__field">
+                        <input type="tel" name="phone" placeholder=" ">
+                        <label>Phone</label>
+                    </div>
+                    <div class="form__field">
+                        <select name="interest" required>
+                            <option value="" disabled selected>I want to&hellip;</option>
+                            <option>Become a Volunteer</option>
+                            <option>Make a Donation</option>
+                            <option>Partner with Us</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form__field">
+                    <textarea name="message" rows="4" placeholder=" " required></textarea>
+                    <label>Your Message</label>
+                </div>
+                <button type="submit" class="btn btn--accent btn--block">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ============  FOOTER  ============ -->
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__brand">
+            <a href="#" class="logo"><span class="logo__icon">BW</span><span class="logo__text">BV Being We</span></a>
+            <p>&ldquo;Alone we can do so little, together we can do so much.&rdquo;</p>
+            <div class="footer__socials">
+                <a href="https://www.instagram.com/bv_beingwe/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/918520938359" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:bvbeingwee@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <nav class="footer__links">
+            <h4>Quick Links</h4>
+            <a href="#about">About Us</a>
+            <a href="#impact">Our Impact</a>
+            <a href="#vision">Vision 2030</a>
+            <a href="#programs">Programs</a>
+            <a href="#team">Team</a>
+        </nav>
+
+        <nav class="footer__links">
+            <h4>Get Involved</h4>
+            <a href="#contact">Volunteer</a>
+            <a href="#contact">Donate</a>
+            <a href="#contact">Partner</a>
+            <a href="https://www.instagram.com/bv_beingwe/" target="_blank" rel="noopener">Instagram</a>
+        </nav>
+
+        <div class="footer__links">
+            <h4>Contact</h4>
+            <a href="mailto:bvbeingwee@gmail.com">bvbeingwee@gmail.com</a>
+            <a href="tel:+918520938359">+91 85209 38359</a>
+            <a href="https://bvbeingwe.in" target="_blank" rel="noopener">bvbeingwe.in</a>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">&copy; <span id="yr"></span> BV Being We &mdash; All rights reserved. Crafted with <i class="fas fa-heart"></i></div>
+    </div>
+</footer>
+
+<!-- Scroll-to-top -->
+<button class="totop" id="totop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+<!-- WhatsApp floating button -->
+<a href="https://wa.me/918520938359" target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
